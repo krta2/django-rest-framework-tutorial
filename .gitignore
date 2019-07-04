@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/python,django,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=python,django,visualstudiocode
+# Created by https://www.gitignore.io/api/python,django,pycharm,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=python,django,pycharm,visualstudiocode
 
 ### Django ###
 *.log
@@ -136,6 +136,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+### PyCharm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+.idea
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 
@@ -192,14 +198,10 @@ dmypy.json
 # Pyre type checker
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/python,django,visualstudiocode
+# End of https://www.gitignore.io/api/python,django,pycharm,visualstudiocode
